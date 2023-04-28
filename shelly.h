@@ -19,12 +19,13 @@ typedef struct info
 {
 	char *program_name;
 	char *input_line;
+	char *command_name;
 	int exec_counter;
 	int file_descriptor;
 	char **tokens;
 	char **env;
 	char **alias_list;
-} data_of_program
+} data_of_program;
 
 typedef struct builtins
 {
